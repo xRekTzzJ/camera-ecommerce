@@ -9,6 +9,13 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+.body {
+  margin: 0;
+  padding: 0;
 }
 .annoucment-bar {
   width: 100%;
@@ -519,4 +526,108 @@
 }
 .promo__image {
   width: 636px;
+}
+.extra-promo {
+  display: flex;
+  max-width: calc(100% - 320px);
+  margin: 0 auto 60px;
+  justify-content: space-between;
+  padding: 0;
+}
+.extra-prommo__card {
+  max-width: 415px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.extra-prommo__image {
+  width: 415px;
+  margin: 0;
+  padding: 0;
+}
+.extra-promo__title {
+  margin: 0;
+  padding: 0;
+  font-size: 27.3px;
+  font-weight: 600;
+  line-height: 33px;
+}
+.extra-promo__paragraph {
+  margin: 0;
+  padding: 0;
+  font-size: 17.5px;
+  line-height: 21px;
+  font-weight: 400;
+}
+.review-based {
+  max-width: 280px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  height: 220px;
+  gap: 8px;
+  justify-content: center;
+}
+.review-based__title {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  text-align: center;
+}
+.review-based__stars {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+  justify-content: center;
+}
+.review-based__star {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  width: 40px;
+}
+.review-based__subtitle {
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.review-based__link {
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+.review-based__frame {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  display: flex;
+  justify-content: center;
+}
+.review-based__shape {
+  margin: 0;
+  padding: 0;
+  width: 25px;
+  height: 24px;
+}
+.reviews__title {
+  text-align: center;
+  font-size: 34px;
+  line-height: 41px;
+  font-weight: 700;
 }
