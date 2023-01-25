@@ -1,0 +1,9 @@
+.product-information__reviews {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  text-decoration: none;
+}

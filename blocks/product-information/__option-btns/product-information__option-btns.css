@@ -1,0 +1,6 @@
+.product-information__option-btns {
+  gap: 10px;
+  display: flex;
+  margin: 10px 0 0;
+  padding: 0;
+}

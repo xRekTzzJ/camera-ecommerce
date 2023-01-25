@@ -1,0 +1,8 @@
+.extra-promo__card {
+  max-width: 415px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

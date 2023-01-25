@@ -1,0 +1,15 @@
+.annoucment-bar {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 45px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  font-style: normal;
+}

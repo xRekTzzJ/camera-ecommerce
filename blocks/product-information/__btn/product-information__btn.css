@@ -1,0 +1,15 @@
+.product-information__btn {
+  width: 200px;
+  height: 41px;
+  outline: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  font-size: 17.5px;
+  line-height: 21px;
+  font-weight: 400;
+  margin: 40px 0 25px;
+  padding: 0;
+  text-decoration: none;
+}

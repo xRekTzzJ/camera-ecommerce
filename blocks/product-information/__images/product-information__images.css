@@ -1,0 +1,7 @@
+.product-information__images {
+  display: flex;
+  justify-content: flex-end;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+}

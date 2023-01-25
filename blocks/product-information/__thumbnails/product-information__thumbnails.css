@@ -1,0 +1,8 @@
+.product-information__thumbnails {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0 0 20px;
+  gap: 30px;
+  list-style: none;
+}

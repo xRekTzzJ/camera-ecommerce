@@ -1,0 +1,9 @@
+.product-information__name-and-reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0 8px;
+  padding: 0;
+  height: fit-content;
+}

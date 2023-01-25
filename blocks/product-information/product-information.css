@@ -1,0 +1,6 @@
+.product-information {
+  width: calc(100% - 160px);
+  margin: 0 auto 57px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

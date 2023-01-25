@@ -1,0 +1,11 @@
+.promo {
+  max-width: calc(100% - 160px);
+  width: fit-content;
+  margin: 0 auto 50px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  border-radius: 20px;
+  overflow: hidden;
+}

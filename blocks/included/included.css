@@ -1,0 +1,7 @@
+.included {
+  margin: 0 auto 75px;
+  padding: 0;
+  width: calc(100% - 515px);
+  display: flex;
+  flex-direction: column;
+}

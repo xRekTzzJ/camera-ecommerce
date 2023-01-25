@@ -1,0 +1,6 @@
+.included__items {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  justify-content: center;
+}

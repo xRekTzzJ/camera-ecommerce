@@ -1,0 +1,8 @@
+.extra-promo {
+  display: flex;
+  max-width: calc(100% - 320px);
+  margin: 0 auto 60px;
+  padding: 0;
+  gap: 17px;
+  justify-content: center;
+}

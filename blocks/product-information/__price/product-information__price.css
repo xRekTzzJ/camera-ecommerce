@@ -1,0 +1,11 @@
+.product-information__price {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
+  margin: 8px 0 20px;
+  padding: 0;
+  display: flex;
+  gap: 6px;
+  height: fit-content;
+  align-items: center;
+}

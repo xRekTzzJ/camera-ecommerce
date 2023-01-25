@@ -1,0 +1,7 @@
+.product-information__left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 40px 10px 0 0;
+  padding: 0;
+}

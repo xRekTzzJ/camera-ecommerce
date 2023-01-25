@@ -1,0 +1,10 @@
+.product-information__instock-quantity {
+  width: 12px;
+  height: 12px;
+  background-color: #6fff00;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px #abff68;
+  filter: blur(2px);
+}

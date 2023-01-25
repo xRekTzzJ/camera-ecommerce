@@ -1,0 +1,10 @@
+.promo__copy {
+  background-color: #102b26;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 94px 0 0;
+  color: #ffffff;
+  gap: 20px;
+}

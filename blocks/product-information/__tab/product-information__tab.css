@@ -1,0 +1,7 @@
+.product-information__tab {
+  margin: 15px 0 0;
+  border-bottom: 1px solid #000000;
+}
+.product-information__tab:first-child {
+  border: 0;
+}

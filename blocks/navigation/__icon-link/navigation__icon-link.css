@@ -1,0 +1,10 @@
+.navigation__icon-link {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  width: 32px;
+  position: relative;
+}{\rtf1}
