@@ -1,0 +1,10 @@
+.review__rating {
+  display: flex;
+  flex-direction: row;
+  margin: 34px auto 0;
+  padding: 0;
+  max-width: calc(100% - 40px);
+  width: 100%;
+  align-items: center;
+  gap: 75px;
+}

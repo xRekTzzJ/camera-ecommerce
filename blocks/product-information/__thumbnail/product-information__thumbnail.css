@@ -2,3 +2,6 @@
   width: 80px;
   height: 80px;
 }
+.product-information__thumbnail:first-child {
+  border-bottom: 1px solid #000000;
+}

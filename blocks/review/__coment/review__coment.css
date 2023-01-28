@@ -1,0 +1,10 @@
+.review__coment {
+  max-width: calc(100% - 40px);
+  width: 100%;
+  padding: 0 0 8px;
+  margin: 0 auto;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300px;
+}

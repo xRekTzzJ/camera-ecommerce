@@ -1,318 +1,121 @@
 @import url(../vendor/normalize.css);
-
 @import url(../vendor/fonts/fonts.css);
-
 @import url(../blocks/page/page.css);
-
 @import url(../blocks/body/body.css);
-
 @import url(../blocks/annoucment-bar/annoucment-bar.css);
-
 @import url(../blocks/navigation/navigation.css);
-
 @import url(../blocks/navigation/__logo/navigation__logo.css);
-
 @import url(../blocks/navigation/__logo-image/navigation__logo-image.css);
-
 @import url(../blocks/navigation/__menu-items/navigation__menu-items.css);
-
 @import url(../blocks/navigation/__menu-item/navigation__menu-item.css);
-
 @import url(../blocks/navigation/__menu-icon/navigation__menu-icon.css);
-
 @import url(../blocks/navigation/__icons/navigation__icons.css);
-
 @import url(../blocks/navigation/__icon/navigation__icon.css);
-
 @import url(../blocks/navigation/__icon-link/navigation__icon-link.css);
-
 @import url(../blocks/navigation/__in-cart/navigation__in-cart.css);
-
 @import url(../blocks/product-information/product-information.css);
-
 @import url(../blocks/product-information/__left-side/product-information__left-side.css);
-
 @import url(../blocks/product-information/__images/product-information__images.css);
-
 @import url(../blocks/product-information/__thumbnails/product-information__thumbnails.css);
-
 @import url(../blocks/product-information/__thumbnail/product-information__thumbnail.css);
-
 @import url(../blocks/product-information/__main-thumbnail/product-information__main-thumbnail.css);
-
 @import url(../blocks/product-information/__tab-opener/product-information__tab-opener.css);
-
 @import url(../blocks/product-information/__tabs/product-information__tabs.css);
-
 @import url(../blocks/product-information/__tab/product-information__tab.css);
-
 @import url(../blocks/product-information/__tab-title/product-information__tab-title.css);
-
 @import url(../blocks/product-information/__tab-status/product-information__tab-status.css);
-
 @import url(../blocks/product-information/__tab-description/product-information__tab-description.css);
-
 @import url(../blocks/product-information/__right-side/product-information__right-side.css);
-
 @import url(../blocks/product-information/__reviews/product-information__reviews.css);
-
 @import url(../blocks/product-information/__reviews-star/product-information__reviews-star.css);
-
 @import url(../blocks/product-information/__reviews-estimation/product-information__reviews-estimation.css);
-
 @import url(../blocks/product-information/__product-name/product-information__product-name.css);
-
 @import url(../blocks/product-information/__name-and-reviews/product-information__name-and-reviews.css);
-
 @import url(../blocks/product-information/__price/product-information__price.css);
-
 @import url(../blocks/product-information/__old-price/product-information__old-price.css);
-
 @import url(../blocks/product-information/__options-title/product-information__options-title.css);
-
 @import url(../blocks/product-information/__option-btns/product-information__option-btns.css);
-
 @import url(../blocks/product-information/__option-btn/product-information__option-btn.css);
-
 @import url(../blocks/product-information/__option-btn/product-information__option-btn.css);
-
 @import url(../blocks/product-information/__option-btn/_black/product-information__option-btn_black.css);
-
 @import url(../blocks/product-information/__instock-quantity/product-information__instock-quantity.css);
-
 @import url(../blocks/product-information/__instock/product-information__instock.css);
-
 @import url(../blocks/product-information/__instock-currently/product-information__instock-currently.css);
-
 @import url(../blocks/product-information/__feature/product-information__feature.css);
-
 @import url(../blocks/product-information/__feature-text/product-information__feature-text.css);
-
 @import url(../blocks/product-information/__featured-specs/product-information__featured-specs.css);
-
 @import url(../blocks/product-information/__feature-icon/product-information__feature-icon.css);
-
 @import url(../blocks/product-information/__feature-view-all/product-information__feature-view-all.css);
-
 @import url(../blocks/product-information/__btns/product-information__btns.css);
-
 @import url(../blocks/product-information/__btn/product-information__btn.css);
-
 @import url(../blocks/product-information/__btn/_cart/product-information__btn_cart.css);
-
 @import url(../blocks/product-information/__btn/_buy/product-information__btn_buy.css);
-
 @import url(../blocks/product-information/__menu/product-information__menu.css);
-
 @import url(../blocks/product-information/__menu-item/product-information__menu-item.css);
-
 @import url(../blocks/product-information/__menu-image/product-information__menu-image.css);
-
 @import url(../blocks/product-information/__menu-accent/product-information__menu-accent.css);
-
 @import url(../blocks/promo-marquee/promo-marquee.css);
-
 @import url(../blocks/promo-marquee/__text/promo-marquee__text.css);
-
 @import url(../blocks/included/included.css);
-
 @import url(../blocks/included/__title/included__title.css);
-
 @import url(../blocks/included/__items/included__items.css);
-
 @import url(../blocks/included/__item/included__item.css);
-
 @import url(../blocks/included/__img/included__img.css);
-
 @import url(../blocks/included/__name/included__name.css);
-
 @import url(../blocks/promo/promo.css);
-
 @import url(../blocks/promo/__copy/promo__copy.css);
-
 @import url(../blocks/promo/__title/promo__title.css);
-
 @import url(../blocks/promo/__paraghraph/promo__paraghraph.css);
-
 @import url(../blocks/promo/__image/promo__image.css);
-
 @import url(../blocks/extra-promo/extra-promo.css);
-
 @import url(../blocks/extra-promo/__card/extra-promo__card.css);
-
 @import url(../blocks/extra-promo/__image/extra-promo__image.css);
-
 @import url(../blocks/extra-promo/__title/extra-promo__title.css);
-
 @import url(../blocks/extra-promo/__paragraph/extra-promo__paragraph.css);
-
 @import url(../blocks/reviews/reviews.css);
-/* review-based должно быть в блоке reviews  */
-.review-based {
-  max-width: 280px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #ffffff;
-  height: 220px;
-  gap: 8px;
-  justify-content: center;
-}
-.review-based__title {
-  margin: 0;
-  padding: 0;
-  font-size: 18px;
-  line-height: 26px;
-  font-weight: 500;
-  text-align: center;
-}
-.review-based__stars-list {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  gap: 8px;
-  justify-content: center;
-}
-.review-based__star {
-  margin: 0;
-  padding: 0;
-  height: 40px;
-  width: 40px;
-}
-.review-based__subtitle {
-  font-family: 'Roboto';
-  font-size: 14px;
-  line-height: 22px;
-  font-weight: 300;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-.review-based__link {
-  font-weight: 700;
-  color: #000000;
-  margin: 0;
-  padding: 0;
-}
-.review-based__frame {
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 26px;
-  display: flex;
-  justify-content: center;
-}
-.review-based__shape {
-  margin: 0;
-  padding: 0;
-  width: 25px;
-  height: 24px;
-}
-.reviews__title {
-  text-align: center;
-  font-size: 34px;
-  line-height: 41px;
-  font-weight: 700;
-  margin: 0 0 50px;
-  padding: 0;
-}
-.rewiev__rating {
-  display: flex;
-  flex-direction: row;
-  margin: 34px auto 0;
-  padding: 0;
-  max-width: calc(100% - 40px);
-  width: 100%;
-  align-items: center;
-  gap: 75px;
-}
-.rewiev {
-  margin: 0;
-  padding: 0;
-  width: 280px;
-  height: 220px;
-  background-color: #ffffff;
-  color: #000000;
-  text-decoration: none;
-}
-.rewiev__stars-list {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 0;
-}
-.rewiev__star {
-  margin: 0;
-  padding: 0;
-  width: 20px;
-  height: 20px;
-}
-.rewiev__days-ago {
-  font-family: 'Roboto';
-  margin: 0;
-  padding: 0;
-  font-size: 12px;
-  line-height: 26px;
-  font-weight: 300;
-}
-.reviews__items {
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-  margin: 0 0 41px;
-  padding: 0;
-  transform: translateX(160px);
-}
-.review__title {
-  padding: 0;
-  margin: 11px 0 8px 20px;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 26px;
-  font-family: 'Satoshi-Regular';
-  max-width: calc(100% - 40px);
-  width: 100%;
-}
-.review__coment {
-  max-width: calc(100% - 40px);
-  width: 100%;
-  padding: 0 0 8px;
-  margin: 0 auto;
-  font-family: 'Roboto';
-  font-size: 14px;
-  line-height: 22px;
-  font-weight: 300px;
-}
-.review__divider {
-  width: 60px;
-  margin: 0 0 8px 20px;
-  height: 1px;
-  background-color: #000000;
-}
-.review__name {
-  margin: 0 0 0 20px;
-  padding: 0;
-  font-size: 14px;
-  font-weight: 700px;
-  line-height: 22px;
-}
-.review__write-btn {
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  text-decoration: none;
-  text-align: center;
-  width: 200px;
-  height: 41px;
-  border-radius: 100px;
-  background-color: #000000;
-  font-size: 17.5px;
-  font-weight: 400;
-  line-height: 21px;
-}
+@import url(../blocks/reviews/__title/reviews__title.css);
+@import url(../blocks/reviews/__items/reviews__items.css);
+@import url(../blocks/review-based/review-based.css);
+@import url(../blocks/review-based/__title/review-based__title.css);
+@import url(../blocks/review-based/__stars-list/review-based__stars-list.css);
+@import url(../blocks/review-based/__star/review-based__star.css);
+@import url(../blocks/review-based/__subtitle/review-based__subtitle.css);
+@import url(../blocks/review-based/__link/review-based__link.css);
+@import url(../blocks/review-based/__frame/review-based__frame.css);
+@import url(../blocks/review-based/__shape/review-based__shape.css);
+@import url(../blocks/review/review.css);
+@import url(../blocks/review/__rating/review__rating.css);
+@import url(../blocks/review/__stars-list/review__stars-list.css);
+@import url(../blocks/review/__star/review__star.css);
+@import url(../blocks/review/__days-ago/review__days-ago.css);
+@import url(../blocks/review/__title/review__title.css);
+@import url(../blocks/review/__coment/review__coment.css);
+@import url(../blocks/review/__divider/review__divider.css);
+@import url(../blocks/review/__name/review__name.css);
+@import url(../blocks/review/__write-btn/review__write-btn.css);
+@import url(../blocks/contact-us/contact-us.css);
+@import url(../blocks/contact-us/__title/contact-us__title.css);
+@import url(../blocks/contact-us/__description/contact-us__description.css);
+@import url(../blocks/contact-us/__faces/contact-us__faces.css);
+@import url(../blocks/contact-us/__face/contact-us__face.css);
+@import url(../blocks/contact-us/__btn-and-answer/contact-us__btn-and-answer.css);
+@import url(../blocks/contact-us/__btn/contact-us__btn.css);
+@import url(../blocks/contact-us/__answer/contact-us__answer.css);
+@import url(../blocks/contact-us/__img/contact-us__img.css);
+@import url(../blocks/contact-us/__link/contact-us__link.css);
+@import url(../blocks/hero-image/hero-image.css);
+@import url(../blocks/showcase/showcase.css);
+@import url(../blocks/showcase/__item/showcase__item.css);
+@import url(../blocks/showcase/__items/showcase__items.css);
+@import url(../blocks/showcase/__title/showcase__title.css);
+@import url(../blocks/showcase/__img/showcase__img.css);
+@import url(../blocks/showcase/__name/showcase__name.css);
+@import url(../blocks/showcase/__price/showcase__price.css);
+@import url(../blocks/showcase/__buy-btn/showcase__buy-btn.css);
+@import url(../blocks/showcase/__plus/showcase__plus.css);
+@import url(../blocks/showcase/__review/showcase__review.css);
+@import url(../blocks/showcase/__review-star/showcase__review-star.css);
+@import url(../blocks/showcase/__btn-and-review/showcase__btn-and-review.css);
+@import url(../blocks/showcase/__swiper/showcase__swiper.css);
+@import url(../blocks/showcase/__previous/showcase__previous.css);
+@import url(../blocks/showcase/__next/showcase__next.css);

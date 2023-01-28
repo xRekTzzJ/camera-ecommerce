@@ -1,0 +1,6 @@
+.review__stars-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 0;
+}

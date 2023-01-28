@@ -1,0 +1,8 @@
+.showcase__items {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 48px;
+  padding: 0;
+  gap: 25px;
+  transform: translateX(160px);
+}

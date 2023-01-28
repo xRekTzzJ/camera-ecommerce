@@ -1,0 +1,8 @@
+.reviews__items {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin: 0 0 41px;
+  padding: 0;
+  transform: translateX(160px);
+}

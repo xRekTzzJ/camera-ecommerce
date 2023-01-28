@@ -1,0 +1,8 @@
+.contact-us__img {
+  position: absolute;
+  z-index: 1;
+  top: -150px;
+  right: 10px;
+  width: 473px;
+  height: 583px;
+}

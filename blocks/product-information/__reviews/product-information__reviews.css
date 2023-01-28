@@ -1,6 +1,8 @@
 .product-information__reviews {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   gap: 5px;
   margin: 0;
   padding: 0;

@@ -1,0 +1,17 @@
+.showcase__buy-btn {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 131px;
+  height: 39px;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  gap: 10.5px;
+}
