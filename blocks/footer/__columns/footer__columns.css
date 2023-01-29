@@ -1,0 +1,7 @@
+.footer__columns {
+  height: fit-content;
+  margin: 66px 0 0;
+  padding: 0;
+  display: flex;
+  gap: 105px;
+}

@@ -5,3 +5,8 @@
   font-size: 34px;
   line-height: 41px;
 }
+@media screen and (max-width: 1180px) {
+  .product-information__product-name {
+    font-size: 28px;
+  }
+}

@@ -1,6 +1,14 @@
 .product-information {
-  width: calc(100% - 160px);
+  max-width: calc(100% - 160px);
+  width: 100%;
   margin: 0 auto 57px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+@media screen and (max-width: 1180px) {
+  .product-information {
+    max-width: calc(100% - 80px);
+    width: 100%;
+    grid-template-columns: 1fr minmax(300px, 630px);
+  }
 }

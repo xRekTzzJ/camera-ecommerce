@@ -1,0 +1,8 @@
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,12 @@
+.footer__newsletter {
+  width: 380px;
+  display: flex;
+  flex-direction: row;
+  height: 54px;
+  border: 1px solid #b3b3b3;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 20px 0 0;
+}

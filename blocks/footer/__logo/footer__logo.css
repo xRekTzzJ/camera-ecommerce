@@ -1,0 +1,10 @@
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 18.5px;
+  text-decoration: none;
+  width: fit-content;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+}

@@ -1,8 +1,9 @@
 .extra-promo {
-  display: flex;
-  max-width: calc(100% - 320px);
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, minmax(200px, 415px));
+  max-width: calc(100% - 160px);
   margin: 0 auto 60px;
   padding: 0;
   gap: 17px;
-  justify-content: center;
 }

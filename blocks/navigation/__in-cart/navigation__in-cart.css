@@ -4,16 +4,16 @@
   padding: 0;
   top: 0;
   left: 0;
-  background-color: #b4e907;
+  background-color: rgb(165, 87, 42);
   border-radius: 50%;
   height: 14px;
   width: 14px;
-  font-size: 10.5px;
+  font-size: 12.5px;
   font-weight: 600;
   line-height: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  color: #000000;
+  color: white;
 }
