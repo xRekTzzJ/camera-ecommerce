@@ -2,5 +2,14 @@
   margin: 0;
   padding: 0;
   width: 68px;
-  height: 68px;
+}
+@media screen and (max-width: 1180px) {
+  .footer__logo-img {
+    width: 54px;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .footer__logo-img {
+    width: 68px;
+  }
 }

@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+/*Не забудь удалить ненужные шрифты*/
 @import url(../blocks/page/page.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/annoucment-bar/annoucment-bar.css);

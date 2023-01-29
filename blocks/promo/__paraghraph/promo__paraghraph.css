@@ -6,3 +6,9 @@
   font-weight: 400;
   line-height: 21px;
 }
+@media screen and (max-width: 1215px) {
+  .promo__paraghraph {
+    font-size: 16px;
+    max-width: 460px;
+  }
+}

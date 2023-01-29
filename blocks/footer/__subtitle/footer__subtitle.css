@@ -8,3 +8,15 @@
   max-width: 411px;
   width: 100%;
 }
+@media screen and (max-width: 1180px) {
+  .footer__subtitle {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .footer__subtitle {
+    font-size: 26px;
+    max-width: 100%;
+    text-align: center;
+  }
+}

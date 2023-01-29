@@ -6,3 +6,13 @@
   font-size: 48.5px;
   line-height: 58px;
 }
+@media screen and (max-width: 1180px) {
+  .footer__logo-text {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .footer__logo-text {
+    font-size: 48.5px;
+  }
+}

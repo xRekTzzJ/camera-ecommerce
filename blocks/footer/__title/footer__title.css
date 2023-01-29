@@ -5,3 +5,8 @@
   line-height: 26px;
   font-weight: 500;
 }
+@media screen and (max-width: 1060px) {
+  .footer__title {
+    font-size: 26px;
+  }
+}

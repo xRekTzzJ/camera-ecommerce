@@ -5,3 +5,9 @@
   flex-direction: column;
   gap: 20px;
 }
+@media screen and (max-width: 1060px) {
+  .footer__content {
+    align-items: center;
+    margin: 40px 0 0;
+  }
+}

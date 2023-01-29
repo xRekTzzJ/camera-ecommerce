@@ -8,3 +8,18 @@
   color: #ffffff;
   gap: 20px;
 }
+@media screen and (max-width: 1385px) {
+  .promo__copy {
+    padding: 80px 0 0;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .promo__copy {
+    padding: 65px 0 0;
+  }
+}
+@media screen and (max-width: 1215px) {
+  .promo__copy {
+    padding: 50px 0 0;
+  }
+}

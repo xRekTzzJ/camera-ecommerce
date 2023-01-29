@@ -9,3 +9,14 @@
   border-radius: 20px;
   overflow: hidden;
 }
+@media screen and (max-width: 1110px) {
+  .promo {
+    max-width: calc(100% - 80px);
+  }
+}
+@media screen and (max-width: 1060px) {
+  .promo {
+    max-width: 100%;
+    border-radius: 0;
+  }
+}

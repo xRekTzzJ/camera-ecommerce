@@ -13,3 +13,8 @@
 .footer__link:hover {
   opacity: 1;
 }
+@media screen and (max-width: 1060px) {
+  .footer__link {
+    font-size: 22px;
+  }
+}
