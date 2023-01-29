@@ -3,13 +3,5 @@
   padding: 0;
   width: 44px;
   height: 44px;
-}
-.contact-us__face:nth-child(2) {
-  transform: translateX(-17px);
-}
-.contact-us__face:nth-child(3) {
-  transform: translateX(-34px);
-}
-.contact-us__face:last-child {
-  transform: translateX(-51px);
+  position: relative;
 }

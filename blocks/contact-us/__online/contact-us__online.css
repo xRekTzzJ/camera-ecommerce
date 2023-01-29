@@ -1,0 +1,11 @@
+.contact-us__online {
+  margin: 0;
+  padding: 0;
+  width: 13.3px;
+  height: 13.3px;
+  background-color: #b4e907;
+  border-radius: 50%;
+  position: absolute;
+  top: -4px;
+  right: 4px;
+}

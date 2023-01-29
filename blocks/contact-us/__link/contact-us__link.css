@@ -3,4 +3,8 @@
   padding: 0;
   text-decoration: underline;
   color: #ffffff;
+  transition: 0.2s;
+}
+.contact-us__link:hover {
+  color: #ffa500;
 }

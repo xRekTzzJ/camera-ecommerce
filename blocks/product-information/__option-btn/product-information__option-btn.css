@@ -13,4 +13,8 @@
   font-weight: 400;
   margin: 0;
   padding: 0;
+  transition: 0.3s;
+}
+.product-information__option-btn:hover {
+  opacity: 0.8;
 }

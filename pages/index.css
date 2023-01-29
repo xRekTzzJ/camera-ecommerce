@@ -18,6 +18,7 @@
 @import url(../blocks/product-information/__images/product-information__images.css);
 @import url(../blocks/product-information/__thumbnails/product-information__thumbnails.css);
 @import url(../blocks/product-information/__thumbnail/product-information__thumbnail.css);
+@import url(../blocks/product-information/__thumbnail-image/product-information__thumbnail-image.css);
 @import url(../blocks/product-information/__main-thumbnail/product-information__main-thumbnail.css);
 @import url(../blocks/product-information/__tab-opener/product-information__tab-opener.css);
 @import url(../blocks/product-information/__tabs/product-information__tabs.css);
@@ -98,6 +99,8 @@
 @import url(../blocks/contact-us/__description/contact-us__description.css);
 @import url(../blocks/contact-us/__faces/contact-us__faces.css);
 @import url(../blocks/contact-us/__face/contact-us__face.css);
+@import url(../blocks/contact-us/__face-item/contact-us__face-item.css);
+@import url(../blocks/contact-us/__online/contact-us__online.css);
 @import url(../blocks/contact-us/__btn-and-answer/contact-us__btn-and-answer.css);
 @import url(../blocks/contact-us/__btn/contact-us__btn.css);
 @import url(../blocks/contact-us/__answer/contact-us__answer.css);
@@ -119,3 +122,180 @@
 @import url(../blocks/showcase/__swiper/showcase__swiper.css);
 @import url(../blocks/showcase/__previous/showcase__previous.css);
 @import url(../blocks/showcase/__next/showcase__next.css);
+@import url(../blocks/footer/footer.css);
+.footer__columns {
+  height: fit-content;
+  margin: 66px 0 0;
+  padding: 0;
+  display: flex;
+  gap: 105px;
+}
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+.footer__title {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 500;
+}
+.footer__link {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-size: 17.5px;
+  font-weight: 400;
+  line-height: 21px;
+  opacity: 0.6;
+  width: fit-content;
+  transition: 0.2s;
+}
+.footer__link:hover {
+  opacity: 1;
+}
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 18.5px;
+  text-decoration: none;
+  width: fit-content;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+}
+.footer__logo-text {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 48.5px;
+  line-height: 58px;
+}
+.footer__logo-img {
+  margin: 0;
+  padding: 0;
+  width: 68px;
+  height: 68px;
+}
+.footer__content {
+  margin: 52px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer__subtitle {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
+  max-width: 411px;
+  width: 100%;
+}
+.footer__newsletter {
+  width: 380px;
+  display: flex;
+  flex-direction: row;
+  height: 54px;
+  border: 1px solid #b3b3b3;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 20px 0 0;
+}
+.footer__email {
+  margin: 0;
+  padding: 0 0 0 20px;
+  font-size: 17.5px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #ffffff;
+  opacity: 0.5;
+  width: 100%;
+  background: none;
+  outline: 0;
+  outline-offset: 0;
+  border: 0;
+}
+/*Нужно убрать желтый фон при вводе емайла*/
+.footer__email-eclipse {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transform: rotate(270deg);
+  transition: 0.2s;
+}
+.footer__email-eclipse:hover {
+  opacity: 0.7;
+}
+.footer__expand {
+  margin: 0;
+  padding: 0;
+}
+.footer__social-icon {
+  padding: 0;
+  margin: 0;
+  transition: 0.2s;
+}
+.footer__social-icon:hover {
+  opacity: 0.6;
+}
+.footer__social-icons {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+.footer__social-link {
+  margin: 0;
+  padding: 0;
+}
+.footer__copyright {
+  left: 80;
+  bottom: 28px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.footer__main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer__copyright-and-payment {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer__payment {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+.footer__payment-icon {
+  margin: 0;
+  padding: 0;
+  width: 38px;
+  height: 24px;
+}

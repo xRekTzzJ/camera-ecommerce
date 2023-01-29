@@ -4,4 +4,8 @@
   font-size: 30px;
   text-decoration: none;
   color: #000000;
+  transition: 0.2s;
+}
+.showcase__previous:hover {
+  color: #ffa500;
 }

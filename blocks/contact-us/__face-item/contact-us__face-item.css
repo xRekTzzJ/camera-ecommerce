@@ -1,0 +1,13 @@
+.contact-us__face-item {
+  margin: 0;
+  padding: 0;
+}
+.contact-us__face-item:nth-child(2) {
+  transform: translateX(-17px);
+}
+.contact-us__face-item:nth-child(3) {
+  transform: translateX(-34px);
+}
+.contact-us__face-item:last-child {
+  transform: translateX(-51px);
+}
