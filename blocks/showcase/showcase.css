@@ -3,8 +3,13 @@
   padding: 0;
   transform: translateX(80px);
 }
-@media screen and (max-width: 1075px) {
+@media screen and (max-width: 1280px) {
   .showcase {
     transform: translateX(40px);
+  }
+}
+@media screen and (max-width: 850px) {
+  .showcase {
+    margin: 0 0 100px;
   }
 }

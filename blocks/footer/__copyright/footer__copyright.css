@@ -11,3 +11,8 @@
     font-size: 18px;
   }
 }
+@media screen and (max-width: 850px) {
+  .footer__copyright {
+    font-size: 24px;
+  }
+}

@@ -7,3 +7,10 @@
   max-width: 540px;
   width: 100%;
 }
+@media screen and (max-width: 970px) {
+  .contact-us__description {
+    margin: 0 0 17.5px 40px;
+    max-width: 440px;
+    width: 100%;
+  }
+}

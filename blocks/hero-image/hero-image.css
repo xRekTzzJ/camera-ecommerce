@@ -7,3 +7,23 @@
   margin: 0 0 50px;
   padding: 0;
 }
+@media screen and (max-width: 1280px) {
+  .hero-image {
+    height: 330px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .hero-image {
+    height: 330px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .hero-image {
+    height: 280px;
+  }
+}
+@media screen and (max-width: 890px) {
+  .hero-image {
+    height: 250px;
+  }
+}

@@ -9,3 +9,8 @@
     gap: 30px;
   }
 }
+@media screen and (max-width: 850px) {
+  .footer__social-icons {
+    gap: 50px;
+  }
+}

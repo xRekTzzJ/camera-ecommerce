@@ -10,3 +10,8 @@
     font-size: 26px;
   }
 }
+@media screen and (max-width: 850px) {
+  .footer__title {
+    font-size: 30px;
+  }
+}

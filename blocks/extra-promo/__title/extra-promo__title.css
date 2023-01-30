@@ -5,3 +5,10 @@
   font-weight: 600;
   line-height: 33px;
 }
+@media screen and (max-width: 850px) {
+  .extra-promo__title {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0 0;
+  }
+}

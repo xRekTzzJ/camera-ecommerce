@@ -2,3 +2,8 @@
   max-width: 636px;
   width: 100%;
 }
+@media screen and (max-width: 895px) {
+  .promo__image {
+    max-width: 100%;
+  }
+}

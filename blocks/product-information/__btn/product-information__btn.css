@@ -19,3 +19,8 @@
 .product-information__btn:hover {
   opacity: 0.8;
 }
+@media screen and (max-width: 950px) {
+  .product-information__btn {
+    margin: 20px 0 15px;
+  }
+}

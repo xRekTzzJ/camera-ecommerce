@@ -15,3 +15,10 @@
     width: 340px;
   }
 }
+@media screen and (max-width: 850px) {
+  .footer__newsletter {
+    width: 500px;
+    margin: 15px 0 15px;
+    height: 77px;
+  }
+}

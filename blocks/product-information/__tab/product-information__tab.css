@@ -1,7 +1,14 @@
 .product-information__tab {
+  padding: 0;
   margin: 15px 0 0;
   border-bottom: 1px solid #000000;
 }
 .product-information__tab:first-child {
   border: 0;
+  border-top: 1px solid #000000;
+}
+@media screen and (max-width: 1160px) {
+  .product-information__tab {
+    margin: 23px 0 0;
+  }
 }

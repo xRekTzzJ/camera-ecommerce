@@ -1,4 +1,5 @@
 .product-information__tabs {
-  width: 522px;
+  max-width: 522px;
+  width: 100%;
   margin-left: auto;
 }

@@ -145,3 +145,21 @@
 @import url(../blocks/footer/__copyright-and-payment/footer__copyright-and-payment.css);
 @import url(../blocks/footer/__payment/footer__payment.css);
 @import url(../blocks/footer/__payment-icon/footer__payment-icon.css);
+.contact-us__content {
+  margin: 0;
+  padding: 0;
+}
+.extra-promo__text {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.product-information__options-menu {
+  width: 100%;
+}
+@media screen and (max-width: 950px) {
+  .product-information__options-menu {
+  }
+}

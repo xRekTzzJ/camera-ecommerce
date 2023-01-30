@@ -11,3 +11,10 @@
     top: -20px;
   }
 }
+@media screen and (max-width: 970px) {
+  .contact-us__img {
+    width: 302px;
+    position: relative;
+    margin: 40px 0 0;
+  }
+}

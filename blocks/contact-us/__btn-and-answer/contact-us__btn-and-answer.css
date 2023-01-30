@@ -5,3 +5,8 @@
   align-items: center;
   gap: 12px;
 }
+@media screen and (max-width: 970px) {
+  .contact-us__btn-and-answer {
+    margin: 0 0 0 40px;
+  }
+}

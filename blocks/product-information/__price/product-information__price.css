@@ -9,3 +9,8 @@
   height: fit-content;
   align-items: center;
 }
+@media screen and (max-width: 950px) {
+  .product-information__price {
+    margin: 8px 0 10px;
+  }
+}

@@ -6,4 +6,6 @@
   margin: 40px 0 8px;
   padding: 0;
   height: fit-content;
+  max-width: 100%;
+  width: 100%;
 }
