@@ -14,3 +14,14 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 720px) {
+  .contact-us__description {
+    max-width: calc(100% - 80px);
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact-us__description {
+    max-width: calc(100% - 20px);
+    margin: 0 0 17.5px 20px;
+  }
+}

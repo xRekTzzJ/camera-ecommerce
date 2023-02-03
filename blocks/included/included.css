@@ -18,6 +18,16 @@
 }
 @media screen and (max-width: 765px) {
   .included {
-    max-width: calc(100% - 50px);
+    max-width: calc(100% - 100px);
+    margin: 0 auto 50px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .included {
+    max-width: calc(100% - 20px);
+  }
+}
+@media screen and (max-width: 550px) {
+  .included {
   }
 }

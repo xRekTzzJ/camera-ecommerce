@@ -5,3 +5,9 @@
   margin: 40px 10px 0 0;
   padding: 0;
 }
+@media screen and (max-width: 750px) {
+  .product-information__left-side {
+    width: 100%;
+    margin: 0;
+  }
+}

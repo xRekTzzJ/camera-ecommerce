@@ -6,3 +6,8 @@
   gap: 29px;
   list-style: none;
 }
+@media screen and (max-width: 750px) {
+  .product-information__thumbnails {
+    justify-content: center;
+  }
+}

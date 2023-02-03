@@ -12,3 +12,8 @@
     margin: 23px 0 0;
   }
 }
+@media screen and (max-width: 750px) {
+  .product-information__tab {
+    margin: 0;
+  }
+}

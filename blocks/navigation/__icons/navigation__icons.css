@@ -7,3 +7,14 @@
   padding: 0;
   list-style: none;
 }
+@media screen and (max-width: 650px) {
+  .navigation__icons {
+    justify-self: center;
+    grid-area: icons;
+  }
+}
+@media screen and (max-width: 540px) {
+  .navigation__icons {
+    display: none;
+  }
+}

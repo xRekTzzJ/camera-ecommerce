@@ -4,3 +4,10 @@
   margin: 0 0 0 10px;
   padding: 0;
 }
+@media screen and (max-width: 750px) {
+  .product-information__right-side {
+    margin: 0;
+    width: 100%;
+    max-width: calc(100% - 40px);
+  }
+}

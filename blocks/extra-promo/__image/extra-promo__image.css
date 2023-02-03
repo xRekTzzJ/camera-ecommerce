@@ -3,3 +3,13 @@
   margin: 0;
   padding: 0;
 }
+@media screen and (max-width: 750px) {
+  .extra-promo__image {
+    max-width: calc(100% - 300px);
+  }
+}
+@media screen and (max-width: 600px) {
+  .extra-promo__image {
+    max-width: 450px;
+  }
+}

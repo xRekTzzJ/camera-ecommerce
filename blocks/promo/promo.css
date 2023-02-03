@@ -28,3 +28,15 @@
     width: calc(100% - 80px);
   }
 }
+@media screen and (max-width: 710px) {
+  .promo {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 15px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .promo {
+    grid-template-rows: 1fr 1.5fr;
+  }
+}

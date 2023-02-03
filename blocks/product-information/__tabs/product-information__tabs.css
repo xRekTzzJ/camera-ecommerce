@@ -3,3 +3,9 @@
   width: 100%;
   margin-left: auto;
 }
+@media screen and (max-width: 750px) {
+  .product-information__tabs {
+    margin: 0 auto;
+    max-width: calc(100% - 40px);
+  }
+}

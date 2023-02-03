@@ -1,4 +1,5 @@
 .extra-promo__card {
+  max-width: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -10,5 +11,13 @@
   .extra-promo__card {
     flex-direction: row;
     border-radius: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .extra-promo__card {
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+    gap: 0;
   }
 }

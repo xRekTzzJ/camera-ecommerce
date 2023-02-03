@@ -27,3 +27,13 @@
     height: 250px;
   }
 }
+@media screen and (max-width: 750px) {
+  .hero-image {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .hero-image {
+    height: 250px;
+  }
+}

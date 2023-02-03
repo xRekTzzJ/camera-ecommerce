@@ -18,3 +18,8 @@
     margin: 40px 0 0;
   }
 }
+@media screen and (max-width: 720px) {
+  .contact-us__img {
+    display: none;
+  }
+}

@@ -17,3 +17,26 @@
     width: calc(100% - 40px);
   }
 }
+@media screen and (max-width: 680px) {
+  .navigation {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .navigation {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-row: 1fr 1fr;
+    grid-template-areas:
+      'logo menu'
+      'icons icons';
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+}

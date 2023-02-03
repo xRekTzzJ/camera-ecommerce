@@ -8,3 +8,8 @@
     margin: 0 0 33px 40px;
   }
 }
+@media screen and (max-width: 600px) {
+  .contact-us__faces {
+    margin: 0 0 33px 20px;
+  }
+}

@@ -8,3 +8,14 @@
   gap: 30px;
   list-style: none;
 }
+@media screen and (max-width: 650px) {
+  .navigation__menu-items {
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 540px) {
+  .navigation__menu-items {
+    margin: auto 0;
+    justify-content: center;
+  }
+}

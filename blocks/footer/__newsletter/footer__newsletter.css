@@ -22,3 +22,8 @@
     height: 77px;
   }
 }
+@media screen and (max-width: 520px) {
+  .footer__newsletter {
+    max-width: calc(100% - 20px);
+  }
+}

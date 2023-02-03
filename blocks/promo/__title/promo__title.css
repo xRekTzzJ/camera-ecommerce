@@ -17,3 +17,21 @@
     max-width: calc(100% - 40px);
   }
 }
+@media screen and (max-width: 750px) {
+  .promo__title {
+    font-size: 34px;
+    max-width: calc(100% - 40px);
+  }
+}
+@media screen and (max-width: 547px) {
+  .promo__title {
+    font-size: 26px;
+    max-width: calc(100% - 40px);
+  }
+}
+@media screen and (max-width: 490px) {
+  .promo__title {
+    font-size: 26px;
+    max-width: calc(100% - 10px);
+  }
+}
